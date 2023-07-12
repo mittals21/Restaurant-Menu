@@ -1,0 +1,80 @@
+img{
+    width: 240px;
+    height: 170px;
+    border: 6px groove;
+    border-radius: 10px;
+    margin-right: 30px;
+    float: left;
+}
+
+.price{
+    float: right;
+}
+
+.text{
+    width: 750px;
+    clear: right;
+    font-size: large;
+    float: none;
+}
+
+h3{
+    width: 456px;
+    position: relative;
+    float: right;
+    margin-bottom: 30px;
+    right: 26px;
+    border-bottom: 2px dotted salmon;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0px 50px;
+    background-color:darkseagreen;
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto;
+}
+
+.card{
+    margin-top: 70px;
+}
+
+@media screen and (min-width:900px) {
+    body{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .head{
+        grid-column: span 2;
+    }
+}
+
+.head{
+    /* display: grid; */
+    text-align: center;
+    font-size: larger;
+    margin: 30px 0 0 0;
+}
+
+.btn{
+    font-size: large;
+    padding: 4px;
+    width: 90px;
+    border: 2px inset cadetblue;
+    margin: 0 30px 20px 0;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.button-container{
+    margin-top: 20px;
+}
